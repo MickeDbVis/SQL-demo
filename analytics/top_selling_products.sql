@@ -7,5 +7,5 @@ SELECT
 FROM products p
 JOIN order_items oi ON oi.product_id = p.product_id
 GROUP BY p.product_id, p.product_name
-ORDER BY units_sold DESC
+ORDER BY revenue DESC
 LIMIT 10;
