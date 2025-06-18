@@ -1,0 +1,2 @@
+-- Dump only the schema (run from shell)
+-- pg_dump -h <host> -U <user> -d <db> -n public -F c -b -v -f schema_backup.dump
